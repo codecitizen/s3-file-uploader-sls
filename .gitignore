@@ -1,0 +1,24 @@
+*.class
+.gradle
+/build/
+/bin/
+/out/
+/.settings/
+.project
+.classpath
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Serverless directories
+.serverless
+
+!gradle/wrapper/*
+
+node_modules/
+build/
+
+# Application Configuration File
+src/main/resources/config.edn

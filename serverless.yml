@@ -1,0 +1,18 @@
+service: s3-file-upload-sls
+
+provider:
+  name: aws
+  runtime: java8
+  versionFunctions: false
+  logRetentionInDays: 30
+
+package:
+  artifact: ${file(build/build.json):distribution}
+
+functions:
+  upload:
+    handler: s3_file_upload_sls.handler::handler
+    memorySize: 512
+    timeout: 3
+    events:
+      - http: POST /upload
