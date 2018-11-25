@@ -1,6 +1,6 @@
 # S3 File Upload Serverless
 
-A serverless function that generates Pre-Signed Upload URLs for a configured S3 bucket.
+AWS Lambda function to generate Pre-Signed PUT URLs for AWS S3, written in Clojure.
 
 ## Usage
 
