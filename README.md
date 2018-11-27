@@ -2,6 +2,8 @@
 
 AWS Lambda function to generate Pre-Signed PUT URLs for AWS S3, written in Clojure.
 
+This repository is also the basis for my first Blogpost in the Series [Serverless Quicktips](https://medium.com/trust-bob-blog/serverless-quick-tip-1-dont-do-multipart-requests-on-aws-lambda-ccc4709c28d3).
+
 ## Usage
 
 ```bash
